@@ -54,6 +54,8 @@ sudo apt-get install mono-complete
 nano hello.cs
 
 
+Write CSharp And Compile by the Command Above
+_________________________________________________________________________________________________
 
 mcs: references the 4.0-profile libraries (the APIs as defined in .NET 4.0) and supports C# 4.0.
 
