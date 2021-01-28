@@ -31,6 +31,9 @@ BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 
 pi@raspberrypi:~ $ 
 
+
+_____________________________________________________________________________________________________________________________________________________
+
 Compile C# without Visual Studio:
 
 Windows:
@@ -47,6 +50,13 @@ for C# 5
 Copyright (C) Microsoft Corporation. All rights reserved.
 
 This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+How to run C#:
+
+Files.exe
+
+
+__________________________________________________________________________________________________
 
 
 
