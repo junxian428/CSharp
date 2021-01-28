@@ -2,6 +2,10 @@
 
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe Files.cs    
 
+mcs -out:hello.exe hello.cs
+mono hello.exe
+
+
 Hello World:
 
 https://www.geeksforgeeks.org/hello-world-in-c-sharp/
@@ -37,6 +41,27 @@ SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
 BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 
 pi@raspberrypi:~ $ 
+____________________________________________________________________________________________________________________________________________________
+
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+
+echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
+
+sudo apt-get update
+
+sudo apt-get install mono-complete
+
+nano hello.cs
+
+
+
+mcs: references the 4.0-profile libraries (the APIs as defined in .NET 4.0) and supports C# 4.0.
+
+gmcs: references the 2.0-profile libraries (the APIs as defined in .NET 2.0 and .NET 3.5) and exposes the full C# 3.0 language.
+
+smcs: references the 2.1-profile libraries (the APIs defined for Silverlight) and exposes the full C# 3.0 language. This is the compiler used for creating Silverlight/Moonlight applications.
+
+
 
 https://kozmicluis.com/compile-c-sharp-command-line/
 _____________________________________________________________________________________________________________________________________________________
