@@ -9,6 +9,7 @@ https://www.geeksforgeeks.org/hello-world-in-c-sharp/
 
 _________________________________________________________________________
 
+For Linux:
 
 Check Version:
 
@@ -37,7 +38,7 @@ BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 
 pi@raspberrypi:~ $ 
 
-
+https://kozmicluis.com/compile-c-sharp-command-line/
 _____________________________________________________________________________________________________________________________________________________
 
 Compile C# without Visual Studio:
